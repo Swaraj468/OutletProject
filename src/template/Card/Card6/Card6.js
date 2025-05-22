@@ -1,46 +1,44 @@
 import React from 'react';
-
+import { useGetSettingByID } from '../../../helper/section';
 const Card6Array = [
-  { id: 0, name: 'Title', settingId: 121, value: "" },
-  { id: 1, name: "Alignment", settingId: 122, value: "center" },
-  { id: 2, name: "Font Gap Title", settingId: 123, value: "large" },
-  {id:3, name:'Color Picker',settingId:124,value:''},
-   {id:4, name:'font Size',settingId:121,value:'2rem'},
-   {id:5, name:'Image',settingId:125,value:''},
-];
-const features = [
-  {
-    title: 'Headless UI',
-    subtitle: 'Completely unstyled, fully accessible UI components',
-    description:
-      'Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.',
-    image: 'https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg',
-    accent: 'text-indigo-500',
-    link: '#',
-  },
-  {
-    title: 'Heroicons',
-    subtitle: 'Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.',
-    description:
-      'A set of 450+ free MIT-licensed SVG icons. Available as basic SVG icons and via first-party React and Vue libraries.',
-    image: 'https://tailwindcss.com/_next/static/media/heroicons@75.4a558f35.jpg',
-    accent: 'text-purple-500',
-    link: '#',
-  },
-  {
-    title: 'Hero Patterns',
-    subtitle: 'Seamless SVG background patterns by the makers of Tailwind CSS.',
-    description:
-      'A collection of over 100 free MIT-licensed high-quality SVG patterns for you to use in your web projects.',
-    image: 'https://tailwindcss.com/_next/static/media/heropatterns@75.82a09697.jpg',
-    accent: 'text-cyan-500',
-    link: '#',
-  },
+  { id: 0, name: 'Title', settingId: 121, value: "Completely unstyled, fully accessible UI components" },
+  { id: 1, name: "Sub-Title", settingId: 121, value: "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS." },
+  {id:2, name:'BackGround-Color',settingId:124,value:''},
+  {id:3, name:'Image-1',settingId:121,value:'https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png'},
+  {id:4, name:'Link',settingId:121,value:'#'},
+
 ];
 
-const Card6 = () => {
+const Card6 = ({sectionId}) => {
+  const titletext = useGetSettingByID(sectionId,0);
+  const subtitletext = useGetSettingByID(sectionId,1);
+  const BackGroundColor = useGetSettingByID(sectionId,2);
+  const Image1=useGetSettingByID(sectionId,3);
+  const Link=useGetSettingByID(sectionId,4);
+
+   const features = [
+    {
+      subtitle:titletext,
+      description:subtitletext,
+      image: Image1,
+      link: Link,
+    },
+    {
+      subtitle:titletext,
+      description:subtitletext,
+      image: Image1,
+      link: Link,
+    },
+    {
+      subtitle:titletext,
+      description:subtitletext,
+      image: Image1,
+      link: Link,
+    },
+  ];
+  
   return (
-    <ul className="grid grid-cols-1 xl:grid-cols-3 gap-y-10 gap-x-6 items-start p-8">
+    <ul className="grid grid-cols-1 xl:grid-cols-3 gap-y-10 gap-x-6 items-start p-8" style={{backgroundColor:BackGroundColor}}>
       {features.map((feature, index) => (
         <li
           key={index}
@@ -48,9 +46,6 @@ const Card6 = () => {
         >
           <div className="order-1 sm:ml-6 xl:ml-0">
             <h3 className="mb-1 text-slate-900 font-semibold">
-              <span className={`mb-1 block text-sm leading-6 ${feature.accent}`}>
-                {feature.title}
-              </span>
               {feature.subtitle}
             </h3>
             <div className="prose prose-slate prose-sm text-slate-600">

@@ -1,48 +1,52 @@
 import React from "react";
+import { useGetSettingByID } from '../../../helper/section';
 const Card13Array = [
-  { id: 0, name: 'Title', settingId: 121, value: "" },
-  { id: 1, name: "Alignment", settingId: 122, value: "center" },
-  { id: 2, name: "Font Gap Title", settingId: 123, value: "large" },
-  {id:3, name:'Color Picker',settingId:124,value:''},
-   {id:4, name:'font Size',settingId:121,value:'2rem'},
-   {id:5, name:'Image',settingId:125,value:''},
-];
-const resources = [
-  {
-    title: "Headless UI",
-    description:
-      "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
-    image:
-      "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
-    color: "indigo",
-    link: "#",
-  },
-  {
-    title: "Heroicons",
-    description:
-      "A set of 450+ free MIT-licensed SVG icons. Available as basic SVG icons and via first-party React and Vue libraries.",
-    image:
-      "https://tailwindcss.com/_next/static/media/heroicons@75.4a558f35.jpg",
-    color: "purple",
-    link: "#",
-  },
-  {
-    title: "Hero Patterns",
-    description:
-      "A collection of over 100 free MIT-licensed high-quality SVG patterns for you to use in your web projects.",
-    image:
-      "https://tailwindcss.com/_next/static/media/heropatterns@75.82a09697.jpg",
-    color: "cyan",
-    link: "#",
-  },
+  { id: 0, name: 'Title', settingId: 121, value: "Headless UI" },
+  { id: 1, name: "Sub-Title", settingId: 121, value: "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.." },
+  {id:2, name:'BackGround-Color',settingId:124,value:''},
+  {id:3, name:'Image-1',settingId:121,value:'https://images.unsplash.com/photo-1549049950-48d5887197a0?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+  {id:4, name:'Button',settingId:121,value:' Learn More'},
+  {id:5, name:'Link',settingId:121,value:'#'},
+  {id:6, name:'Heading',settingId:121,value:'Featured Resources'},
 ];
 
-const Card13 = () => {
+const Card13 = ({sectionId}) => {
+  const titletext = useGetSettingByID(sectionId,0);
+  const subtitletext = useGetSettingByID(sectionId,1);
+  const BackGroundColor = useGetSettingByID(sectionId,2);
+  const Image1=useGetSettingByID(sectionId,3);
+  const Button=useGetSettingByID(sectionId,4);
+  const Link=useGetSettingByID(sectionId,5);
+  const Heading=useGetSettingByID(sectionId,6);
+
+  const resources = [
+    {
+      title: titletext,
+      description:subtitletext,
+      image:Image1,
+      color: "indigo",
+      link: Link,
+    },
+    {
+      title: titletext,
+      description:subtitletext,
+      image:Image1,
+      color: "indigo",
+      link: Link,
+    },
+    {
+      title: titletext,
+      description:subtitletext,
+      image:Image1,
+      color: "indigo",
+      link: Link,
+    },
+  ];
   return (
-    <div className="h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
+    <div className="h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white" style={{backgroundColor:BackGroundColor}}>
       <div className="container mx-auto px-4 py-8">
         <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-gray-200 mb-8">
-          Featured Resources
+        {Heading}
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -69,7 +73,7 @@ const Card13 = () => {
                   href={resource.link}
                   className={`inline-block bg-${resource.color}-500 hover:bg-${resource.color}-600 text-white px-4 py-2 rounded-full`}
                 >
-                  Learn More
+                 {Button}
                 </a>
               </div>
             </div>
