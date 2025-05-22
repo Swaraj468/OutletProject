@@ -26,21 +26,8 @@ const Card13 = ({sectionId}) => {
       image:Image1,
       color: "indigo",
       link: Link,
-    },
-    {
-      title: titletext,
-      description:subtitletext,
-      image:Image1,
-      color: "indigo",
-      link: Link,
-    },
-    {
-      title: titletext,
-      description:subtitletext,
-      image:Image1,
-      color: "indigo",
-      link: Link,
-    },
+    }
+   
   ];
   return (
     <div className="h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white" style={{backgroundColor:BackGroundColor}}>
