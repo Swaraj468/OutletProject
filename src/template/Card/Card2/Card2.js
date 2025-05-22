@@ -71,7 +71,14 @@ const BlogCard = ({ title, image, description, time, comments }) => (
   </div>
 );
 
-const Card2=()=>{
+const Card2=({sectionId})=>{
+  const titletext = useGetSettingByID(sectionId,0);
+  const subtitletext = useGetSettingByID(sectionId,1);
+   const BackGroundColor = useGetSettingByID(sectionId,2);
+   const Image1=useGetSettingByID(sectionId,3);
+   const Image2=useGetSettingByID(sectionId,4);
+   const Button=useGetSettingByID(sectionId,5);
+   const Buttonlink=useGetSettingByID(sectionId,6);
   return (
     <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
       <div className="border-b mb-5 flex justify-between text-sm">

@@ -16,7 +16,8 @@ const Card3 = () => {
       category: 'Indoor',
       name: 'Peace Lily',
       price: '$36.00',
-      priceTextColor: 'text-orange-500'
+      priceTextColor: 'text-orange-500',
+      href:''
     },
     {
       bgColor: 'bg-teal-500',
@@ -76,7 +77,7 @@ const Card3 = () => {
             <div className="flex justify-between">
               <span className="block font-semibold text-xl">{product.name}</span>
               <span className={`block bg-white rounded-full ${product.priceTextColor} text-xs font-bold px-3 py-2 leading-none flex items-center`}>
-                {product.price}
+              <a href={product.href}>{product.price}</a>
               </span>
             </div>
           </div>
