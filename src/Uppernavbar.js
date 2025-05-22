@@ -67,57 +67,8 @@ const Uppernavbar = () => {
             </div>
 
             {/* Center Section */}
-            <div className="navbar-center">
-                {/* Default Dropdown */}
-                <div className="dropdown">
-                    <span className="menu-item" onClick={toggleDefaultMenu}>
-                        <img src={selectedDefaultImage} alt="Selected" className="dropdown-img" />
-                        {selectedDefaultOption} <i className="icon-chevron-down"></i>
-                    </span>
-                    {defaultMenuOpen && (
-                        <ul className="dropdown-menu">
-                            {defaultOptions.map((option, index) => (
-                                <li key={index} onClick={() => handleDefaultSelect(option)}>
-                                    <img src={option.image} alt={option.name} className="dropdown-img" />
-                                    {option.name}
-                                </li>
-                            ))}
-                        </ul>
-                    )}
-                </div>
-
-                {/* Home Page Dropdown with Search */}
-                <div className="dropdown">
-                    <span className="menu-item" onClick={toggleHomePageMenu}>
-                        <img src={selectedHomePageImage} alt="Selected" className="dropdown-img" />
-                        {selectedHomePageOption} <i className="icon-chevron-down"></i>
-                    </span>
-                    {homePageMenuOpen && (
-                        <div className="dropdown-menu">
-                            <input
-                                type="text"
-                                placeholder="Search..."
-                                className="dropdown-search"
-                                value={searchQuery}
-                                onChange={handleSearch}
-                            />
-                            <ul>
-                                {filteredHomePageOptions.length > 0 ? (
-                                    filteredHomePageOptions.map((option, index) => (
-                                        <li key={index} onClick={() => handleHomePageSelect(option)}>
-                                            <img src={option.image} alt={option.name} className="dropdown-img" />
-                                            {option.name}
-                                        </li>
-                                    ))
-                                ) : (
-                                    <li className="no-results">No results found</li>
-                                )}
-                            </ul>
-                        </div>
-                    )}
-                </div>
-            </div>
-
+          
+          
             {/* Right Section */}
             <div className="navbar-right">
                 <button className="icon-btn">
@@ -132,7 +83,7 @@ const Uppernavbar = () => {
                     <i className="icon-refresh"></i>
                     <span className="tooltip">Refresh</span>
                 </button>
-                <button className="save-btn">Save</button>
+
             </div>
         </div>
     );

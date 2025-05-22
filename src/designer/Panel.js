@@ -83,7 +83,7 @@ const Panel = () => {
         className="preview-button" 
         onClick={togglePreviewMode}
       >
-        Preview
+        Live-view
       </button>
       
       <div className="sidebar-container">
@@ -100,16 +100,14 @@ const Panel = () => {
               className={`sidebar-item ${selectedOption === 'settings' ? 'active' : ''}`}
               onClick={() => handleOptionClick('settings')}
             >
-              <img src="left-sidebar-img/gear.png" className="design-logo" alt="Settings Logo" />
-              <span className="tooltip">Settings</span>
-            </li>
+              
+                </li>
             <li
               className={`sidebar-item ${selectedOption === 'embed' ? 'active' : ''}`}
               onClick={() => handleOptionClick('embed')}
             >
-              <img src="left-sidebar-img/html.svg" className="design-logo" alt="App Embed Logo" />
-              <span className="tooltip">Embed</span>
-            </li>
+             
+             </li>
           </ul>
         </div>
         <div className="sidebar-content second-columns">
