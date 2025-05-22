@@ -1,35 +1,36 @@
 import React from 'react';
-
+import { useGetSettingByID } from '../../../helper/section';
 const Card9Array = [
-  { id: 0, name: 'Title', settingId: 121, value: "" },
-  { id: 1, name: "Alignment", settingId: 122, value: "center" },
-  { id: 2, name: "Font Gap Title", settingId: 123, value: "large" },
-  {id:3, name:'Color Picker',settingId:124,value:''},
-   {id:4, name:'font Size',settingId:121,value:'2rem'},
-   {id:5, name:'Image',settingId:125,value:''},
+  { id: 0, name: 'Title', settingId: 121, value: "Post title" },
+  { id: 1, name: "Sub-Title", settingId: 121, value: "Description of your post/article." },
+   {id:3, name:'Image-1',settingId:121,value:"https://via.placeholder.com/150"},
+  
+   {id:6, name:'Button-link',settingId:121,value:"https://amitpachange.com"},
 ];
-const Card9 = () => {
+const Card9 = ({sectionId}) => {
+    const titletext = useGetSettingByID(sectionId,0);
+    const subtitletext = useGetSettingByID(sectionId,1);
+     const Image1=useGetSettingByID(sectionId,3);
+     const Buttonlink=useGetSettingByID(sectionId,6);
   return (
-    <div className="max-w-2xl mx-auto mt-24">
+    <div className="max-w-2xl mx-auto mt-24" >
       <div className="flex gap-3 bg-white border border-gray-300 rounded-xl overflow-hidden items-center justify-start">
         {/* Image */}
         <div className="relative w-32 h-32 flex-shrink-0">
           <img
             className="absolute left-0 top-0 w-full h-full object-cover object-center transition duration-50"
             loading="lazy"
-            src="https://via.placeholder.com/150"
+            src={Image1}
             alt="Post"
           />
         </div>
 
         {/* Text Content */}
         <div className="flex flex-col gap-2 py-2">
-          <p className="text-xl font-bold">Post title</p>
+          <p className="text-xl font-bold">{titletext}</p>
 
           <p className="text-gray-500">
-            Description of your post/article,
-            <br />
-            Description of your post/article,
+            {subtitletext}
           </p>
 
           <span className="flex items-center text-gray-500">
@@ -45,7 +46,7 @@ const Card9 = () => {
                 clipRule="evenodd"
               />
             </svg>
-            <a href="https://amitpachange.com" target="_blank" rel="noopener noreferrer">
+            <a href= {Buttonlink} target="_blank" rel="noopener noreferrer">
               amitpachange.com
             </a>
           </span>
