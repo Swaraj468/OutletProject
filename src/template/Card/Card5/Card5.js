@@ -1,14 +1,22 @@
 import React from 'react';
-
+import { useGetSettingByID } from '../../../helper/section';
 const Card5Array = [
-  { id: 0, name: 'Title', settingId: 121, value: "" },
-  { id: 1, name: "Alignment", settingId: 122, value: "center" },
-  { id: 2, name: "Font Gap Title", settingId: 123, value: "large" },
-  {id:3, name:'Color Picker',settingId:124,value:''},
-   {id:4, name:'font Size',settingId:121,value:'2rem'},
-   {id:5, name:'Image',settingId:125,value:''},
+  { id: 0, name: 'Title', settingId: 121, value: "Sarah Smith" },
+  { id: 1, name: "Sub-Title", settingId: 121, value: "Freelance Web Designer" },
+  {id:2, name:'BackGround-Color',settingId:124,value:''},
+   {id:3, name:'Image-1',settingId:121,value:'https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'},
+   {id:4, name:'Image-2',settingId:121,value:'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'},
+   {id:5, name:'Button',settingId:121,value:'Follow'},
+   {id:6, name:'Button-link',settingId:121,value:''},
 ];
-const Card5 = () => {
+const Card5 = ({sectionId}) => {
+  const titletext = useGetSettingByID(sectionId,0);
+  const subtitletext = useGetSettingByID(sectionId,1);
+   const BackGroundColor = useGetSettingByID(sectionId,2);
+   const Image1=useGetSettingByID(sectionId,3);
+   const Image2=useGetSettingByID(sectionId,4);
+   const Button=useGetSettingByID(sectionId,5);
+   const Buttonlink=useGetSettingByID(sectionId,6);
   return (
     <div className="px-2 py-20 w-full flex justify-center">
       <div className="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg overflow-hidden">

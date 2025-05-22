@@ -40,7 +40,7 @@ const Card3 = ({sectionId}) => {
       category: subtitletext,
       name: titletext,
       price: Button,
-      href: Buttonlink1,
+      href: Buttonlink2,
       priceTextColor: 'text-teal-500'
     },
     {
@@ -49,7 +49,7 @@ const Card3 = ({sectionId}) => {
       category: subtitletext,
       name: titletext,
       price: Button,
-      href: Buttonlink1,
+      href: Buttonlink3,
       priceTextColor: 'text-purple-500'
     },
 
