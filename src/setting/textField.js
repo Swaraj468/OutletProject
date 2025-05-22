@@ -21,7 +21,7 @@ const TextField = ({ sectionID, settingId, name, defaultValue }) => {
         method: "POST",
         headers: {
           Authorization:
-            "Bearer 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",
+            "Bearer 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",
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
