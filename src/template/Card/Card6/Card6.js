@@ -22,19 +22,7 @@ const Card6 = ({sectionId}) => {
       description:subtitletext,
       image: Image1,
       link: Link,
-    },
-    {
-      subtitle:titletext,
-      description:subtitletext,
-      image: Image1,
-      link: Link,
-    },
-    {
-      subtitle:titletext,
-      description:subtitletext,
-      image: Image1,
-      link: Link,
-    },
+    }
   ];
   
   return (

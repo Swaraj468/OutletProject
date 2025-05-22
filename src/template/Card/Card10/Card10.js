@@ -30,18 +30,6 @@ const Card10 = ({sectionId}) => {
       title: Cardtitle,
       description: Carddescription,
       img: Image1,
-    },
-    {
-      name: Name,
-      title: Cardtitle,
-      description: Carddescription,
-      img: Image1,
-    },
-    {
-      name: Name,
-      title: Cardtitle,
-      description: Carddescription,
-      img: Image1,
     }
   ];
   

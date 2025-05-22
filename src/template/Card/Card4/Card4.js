@@ -16,21 +16,9 @@ const Card4 = ({sectionId}) => {
   const services = [
     {
       title: titletext,
-      description: subtitletext,
-      iconBg: 'bg-teal-400 shadow-teal-500/40',
-      img:Image1,
-    },
-    {
-      title: titletext,
       description:subtitletext,
       iconBg: 'bg-rose-500 shadow-rose-500/40',
       img: Image1,
-    },
-    {
-      title: titletext,
-      description: subtitletext,
-      iconBg: 'bg-sky-500 shadow-sky-500/40',
-      img:Image1
     }
   ];
 

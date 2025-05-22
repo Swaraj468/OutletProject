@@ -7,16 +7,16 @@ const Card7Array = [
   {id:2, name:'BackGround-Color',settingId:124,value:''},
    {id:3, name:'Image-1',settingId:121,value: "https://inviqa.com/sites/default/files/styles/pullout/public/2020-08/XD-1.jpeg?h=f75d236a&itok=PBoXPDmW"},
 
-   {id:5, name:'Button',settingId:121,value:'Follow'},
-   {id:6, name:'Button-link',settingId:121,value:''},
+   {id:4, name:'Button',settingId:121,value:'Follow'},
+   {id:5, name:'Button-link',settingId:121,value:''},
 ];
 const Card7 = ({sectionId}) => {
     const titletext = useGetSettingByID(sectionId,0);
     const subtitletext = useGetSettingByID(sectionId,1);
      const BackGroundColor = useGetSettingByID(sectionId,2);
      const Image1=useGetSettingByID(sectionId,3);
-     const Button=useGetSettingByID(sectionId,5);
-     const Buttonlink=useGetSettingByID(sectionId,6);
+     const Button=useGetSettingByID(sectionId,4);
+     const Buttonlink=useGetSettingByID(sectionId,5);
   return (
     <div className="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-white" style={{backgroundColor:BackGroundColor}}>
       <div className="mx-auto max-w-6xl">

@@ -3,18 +3,21 @@ import { useGetSettingByID } from '../../../helper/section';
 const Card9Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Post title" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "Description of your post/article." },
-   {id:3, name:'Image-1',settingId:121,value:"https://via.placeholder.com/150"},
-  
-   {id:6, name:'Button-link',settingId:121,value:"https://amitpachange.com"},
+   {id:2, name:'Image-1',settingId:121,value:"https://plus.unsplash.com/premium_photo-1661597156656-75ba116e9e1d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
+   {id:3, name:'Button-link',settingId:121,value:"https://amitpachange.com"},
+   {id:4, name:'BackGround-Color',settingId:124,value:""},
+
 ];
 const Card9 = ({sectionId}) => {
     const titletext = useGetSettingByID(sectionId,0);
     const subtitletext = useGetSettingByID(sectionId,1);
-     const Image1=useGetSettingByID(sectionId,3);
-     const Buttonlink=useGetSettingByID(sectionId,6);
+     const Image1=useGetSettingByID(sectionId,2);
+     const Buttonlink=useGetSettingByID(sectionId,3);
+     const color=useGetSettingByID(sectionId,4);
+
   return (
-    <div className="max-w-2xl mx-auto mt-24" >
-      <div className="flex gap-3 bg-white border border-gray-300 rounded-xl overflow-hidden items-center justify-start">
+    <div className="max-w-2xl mx-auto mt-24">
+      <div className="flex gap-3 bg-white border border-gray-300 rounded-xl overflow-hidden items-center justify-start" style={{backgroundColor:color}}>
         {/* Image */}
         <div className="relative w-32 h-32 flex-shrink-0">
           <img
