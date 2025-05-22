@@ -4,7 +4,7 @@ const Card3Array = [
 { id: 0, name: 'Title', settingId: 121, value: "Sarah Smith" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "Indoor" },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-   {id:3, name:'Image',settingId:121,value:'https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png'},
+   {id:3, name:'Image',settingId:125,value:'https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png'},
    {id:4, name:'Button',settingId:121,value:'Follow'},
    {id:5, name:'Button-link',settingId:121,value:''},
 ];

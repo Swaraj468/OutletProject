@@ -4,7 +4,7 @@ const Card8Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Completely unstyled" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "accessible UI components, designed to integrate beautifully with Tailwind CSS." },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-  {id:3, name:'Image-1',settingId:121,value:'https://plus.unsplash.com/premium_photo-1679913792906-13ccc5c84d44?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+  {id:3, name:'Image-1',settingId:125,value:'https://plus.unsplash.com/premium_photo-1679913792906-13ccc5c84d44?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
   {id:4, name:'Link',settingId:121,value:'#'},
 
 ];

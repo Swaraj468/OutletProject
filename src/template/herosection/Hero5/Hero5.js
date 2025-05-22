@@ -4,7 +4,7 @@ const Hero5Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Crypt AI and beyond" },
   { id: 1, name: 'Sub Title', settingId: 121, value: "not your average crypto coin" },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "#f9b8" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://iili.io/2ysFUen.png" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://iili.io/2ysFUen.png" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Create a coin" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
   { id: 6, name: 'Button Name-2', settingId: 121, value: "Join Discord" },

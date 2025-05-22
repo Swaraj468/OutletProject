@@ -4,7 +4,7 @@ const Card11Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Meet Our Talented Team" },
   { id: 1, name: "Sub-Title", settingId: 121, value: " We're a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients." },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-  {id:3, name:'Image',settingId:121,value:''},
+  {id:3, name:'Image',settingId:125,value:''},
   {id:4, name:'Button',settingId:121,value:'Join Team'},
   {id:5, name:'Link',settingId:121,value:'#'},
 ];

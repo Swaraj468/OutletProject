@@ -4,7 +4,7 @@ const Hero15Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Leading US-Based cycle maker New Product Launch" },
   { id: 1, name: 'Sub Title', settingId: 121, value: "Innovative technology to revolutionize industry standards, Available for pre-order now and shipping to customers in the coming months." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://demo.themesberg.com/landwind/images/hero.png" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://demo.themesberg.com/landwind/images/hero.png" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Pre-Book" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
   { id: 6, name: 'Button Name-2', settingId: 121, value: "Get Figma file " },

@@ -4,7 +4,7 @@ const HeroSection19Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Welcome to Our Awesome Website" },
   { id: 1, name: 'Sub Title', settingId: 121, value: "Discover amazing features and services that await you." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Get Started" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
   ]

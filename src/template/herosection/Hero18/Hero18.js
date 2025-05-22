@@ -4,7 +4,7 @@ const HeroSection18Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Start creating AI Arts today" },
   { id: 1, name: 'Sub Title', settingId: 121, value: " example is the AI Content Generator that helps you and your team break through creative blocks to create amazing, original content 10X faster." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://images.unsplash.com/photo-1542831371-29b0f74f9713" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://images.unsplash.com/photo-1542831371-29b0f74f9713" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Get started for free 🚀" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
   ]

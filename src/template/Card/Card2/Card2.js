@@ -4,7 +4,7 @@ const Card2Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Simplest Salad Recipe ever" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet modi accusantium vero perspiciatis, incidunt dicta sed aspernatur!" },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-  {id:3, name:'Image-1',settingId:121,value:'https://images.pexels.com/photos/61180/pexels-photo-61180.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'},
+  {id:3, name:'Image-1',settingId:125,value:'https://images.pexels.com/photos/61180/pexels-photo-61180.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'},
 ];
 
 const Card2=({sectionId})=>{

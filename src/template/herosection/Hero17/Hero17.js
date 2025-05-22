@@ -4,7 +4,7 @@ const HeroSection17Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Start creating AI Arts today" },
   { id: 1, name: 'Sub Title', settingId: 121, value: " Automate your workflow with our state of the art tools. Let Your Imagination Run Wild." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://images.unsplash.com/photo-1542831371-29b0f74f9713" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://images.unsplash.com/photo-1542831371-29b0f74f9713" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Get Started Now" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
   ];

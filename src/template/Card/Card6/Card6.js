@@ -4,7 +4,7 @@ const Card6Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Completely unstyled, fully accessible UI components" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS." },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-  {id:3, name:'Image-1',settingId:121,value:'https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png'},
+  {id:3, name:'Image-1',settingId:125,value:'https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png'},
   {id:4, name:'Link',settingId:121,value:'#'},
 
 ];

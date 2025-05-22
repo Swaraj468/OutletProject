@@ -4,8 +4,8 @@ const Card1Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Sarah Smith" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "Freelance Web Designer" },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-   {id:3, name:'Image-1',settingId:121,value:'https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'},
-   {id:4, name:'Image-2',settingId:121,value:'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'},
+   {id:3, name:'Image-1',settingId:125,value:'https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'},
+   {id:4, name:'Image-2',settingId:125,value:'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'},
    {id:5, name:'Button',settingId:121,value:'Follow'},
    {id:6, name:'Button-link',settingId:121,value:''},
 ];

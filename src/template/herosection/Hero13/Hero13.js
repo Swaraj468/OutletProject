@@ -4,7 +4,7 @@ const Hero13Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Best Service Offered Here" },
   { id: 1, name: 'Sub Title', settingId: 121, value: "Introducing our latest service offering. Get started quickly and efficiently with our range of solutions. Designed to meet your needs using the latest technologies." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://images.unsplash.com/photo-1543949648-5456dc883a25?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://images.unsplash.com/photo-1543949648-5456dc883a25?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Getting started" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
   { id: 7, name: 'Button Name-2', settingId: 121, value: " Contribute" },

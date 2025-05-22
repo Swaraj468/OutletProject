@@ -4,7 +4,7 @@ const Card4Array = [
   { id: 0, name: 'Title', settingId: 121, value: "TREE AND SHRUB PRUNING" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet modi accusantium vero perspiciatis, incidunt dicta sed aspernatur!" },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-  {id:3, name:'Image-1',settingId:121,value:'https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png'},
+  {id:3, name:'Image-1',settingId:125,value:'https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png'},
   
 ];
 const Card4 = ({sectionId}) => {

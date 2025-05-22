@@ -4,7 +4,7 @@ const Hero6Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Let's not stress for Website designs." },
   { id: 1, name: 'Sub Title', settingId: 121, value: "A Community build tailwind component library." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "#8b7e7e" },
-  { id: 3, name: 'Image', settingId: 121, value: "" },
+  { id: 3, name: 'Image', settingId: 125, value: "" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Find" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
 ];

@@ -4,7 +4,7 @@ const Hero12Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Best Service Offered Here" },
   { id: 1, name: 'Sub Title', settingId: 121, value: "Introducing our latest service offering. Get started quickly and efficiently with our range of solutions. Designed to meet your needs using the latest technologies." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "" },
-  { id: 3, name: 'Image', settingId: 121, value: "" },
+  { id: 3, name: 'Image', settingId: 125, value: "" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: " Browse All Examples" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
   { id: 7, name: 'Button Name-2', settingId: 121, value: "Search Examples" },

@@ -4,7 +4,7 @@ const Hero2Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Make managing your finances easier with AI" },
   { id: 1, name: 'Sub Title', settingId: 121, value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6v93uCXnFSRc57Og2PVYOSinP-OfIhyKqQQ&s" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6v93uCXnFSRc57Og2PVYOSinP-OfIhyKqQQ&s" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Get Started" },
   { id: 5, name: 'Button Name-2', settingId: 121, value: "See Demo" },
   { id: 6, name: 'Anoter Link-1', settingId: 121, value: "" },

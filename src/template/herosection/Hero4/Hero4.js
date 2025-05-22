@@ -4,7 +4,7 @@ const Hero4Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Elevate Your Style with Modern Design." },
   { id: 1, name: 'Sub Title', settingId: 121, value: " Discover top-quality products with exclusive deals tailored just for you." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "#f9b8" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://iili.io/2ysFUen.png" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://iili.io/2ysFUen.png" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Shop Now" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
 ];

@@ -4,7 +4,7 @@ const Card5Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Choice" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "   The Eco-Tracker project aims to create a web-based platform that encourages individuals to adopt sustainable lifestyle choices and actively contribute to environmental conservation. The platform provides users with personalized tracking, education, and engagement features to empower them to make eco-friendly decisions in various aspects of their lives." },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-   {id:3, name:'Image-1',settingId:121,value: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"},
+   {id:3, name:'Image-1',settingId:125,value: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"},
 
    {id:4, name:'Button',settingId:121,value:'Follow'},
    {id:5, name:'Button-link',settingId:121,value:''},

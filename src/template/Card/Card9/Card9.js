@@ -3,7 +3,7 @@ import { useGetSettingByID } from '../../../helper/section';
 const Card9Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Post title" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "Description of your post/article." },
-   {id:2, name:'Image-1',settingId:121,value:"https://plus.unsplash.com/premium_photo-1661597156656-75ba116e9e1d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
+   {id:2, name:'Image-1',settingId:125,value:"https://plus.unsplash.com/premium_photo-1661597156656-75ba116e9e1d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
    {id:3, name:'Button-link',settingId:121,value:"https://amitpachange.com"},
    {id:4, name:'BackGround-Color',settingId:124,value:""},
 

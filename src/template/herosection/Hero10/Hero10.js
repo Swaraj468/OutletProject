@@ -4,7 +4,7 @@ const Hero10Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Catching Life  Stories" },
   { id: 1, name: 'Sub Title', settingId: 121, value: "Professional photography services for weddings, events, portraits, and commercial shoots. Let us tell your story through our lens." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "#ffffff" },
-  { id: 3, name: 'Image', settingId: 121, value: "" },
+  { id: 3, name: 'Image', settingId: 125, value: "" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Book Now" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
 ];

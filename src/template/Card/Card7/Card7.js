@@ -5,7 +5,7 @@ const Card7Array = [
   { id: 0, name: 'Title', settingId: 121, value: "CXcon: Experience Transformation" },
   { id: 1, name: "Sub-Title", settingId: 121, value: "Our second CXcon in October was dedicated to experience transformation. The free one-day virtual event brought together 230+ heads of digital, thought leaders, and UX practitioners to discuss allaspects of experience design." },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-   {id:3, name:'Image-1',settingId:121,value: "https://inviqa.com/sites/default/files/styles/pullout/public/2020-08/XD-1.jpeg?h=f75d236a&itok=PBoXPDmW"},
+   {id:3, name:'Image-1',settingId:125,value: "https://inviqa.com/sites/default/files/styles/pullout/public/2020-08/XD-1.jpeg?h=f75d236a&itok=PBoXPDmW"},
 
    {id:4, name:'Button',settingId:121,value:'Follow'},
    {id:5, name:'Button-link',settingId:121,value:''},

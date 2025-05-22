@@ -4,7 +4,7 @@ const Hero7Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Navigating the digital landscape for success" },
   { id: 1, name: 'Sub Title', settingId: 121, value: " Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media  marketing, and content creation." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "#381e1e" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://images.unsplash.com/photo-1620914854125-67a1981aae6a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://images.unsplash.com/photo-1620914854125-67a1981aae6a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Book a consultation" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
 ];

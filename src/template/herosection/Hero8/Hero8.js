@@ -4,7 +4,7 @@ const Hero8Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Leads NexTech" },
   { id: 1, name: 'Sub Title', settingId: 121, value: "Harnessing Research for developing Sustainable, Scalable, & Impactful Solutions." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://www.leadsnextech.com/_next/static/media/bg.153fe1e6.jpg" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://www.leadsnextech.com/_next/static/media/bg.153fe1e6.jpg" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Get Started" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
   { id: 6, name: 'Button Name-2', settingId: 121, value: "Documentation" },

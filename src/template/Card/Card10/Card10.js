@@ -4,7 +4,7 @@ const Card10Array = [
   { id: 0, name: 'Title', settingId: 121, value: "Meet Our Talented Team" },
   { id: 1, name: "Sub-Title", settingId: 121, value: " We're a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients." },
   {id:2, name:'BackGround-Color',settingId:124,value:''},
-  {id:3, name:'Image-1',settingId:121,value:'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'},
+  {id:3, name:'Image-1',settingId:125,value:'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'},
   {id:4, name:'Button',settingId:121,value:'Join Team'},
   {id:5, name:'Link',settingId:121,value:'#'},
   { id: 6, name: 'Name', settingId: 121, value: "Alex Morgan" },

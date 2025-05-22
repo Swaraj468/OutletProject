@@ -4,7 +4,7 @@ const Hero9Array = [
   { id: 0, name: 'Title', settingId: 121, value: " Winding Mountain Road" },
   { id: 1, name: 'Sub Title', settingId: 121, value: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "#ffffff" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://picsum.photos/id/1018/2000" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://picsum.photos/id/1018/2000" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Read More" },
   { id: 5, name: 'Anoter Link-1', settingId: 121, value: "" },
 ];
