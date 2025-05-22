@@ -13,13 +13,14 @@ const Hero2Array = [
 const Hero2 = ({sectionId}) => {
   const titletext = useGetSettingByID(sectionId,0);
   const subtitletext = useGetSettingByID(sectionId,1);
+  const BackGround = useGetSettingByID(sectionId,2);
    const Image = useGetSettingByID(sectionId,3);
    const Anoterlink1=useGetSettingByID(sectionId,4);
    const Anoterlink2=useGetSettingByID(sectionId,5);
    const Button1=useGetSettingByID(sectionId,4);
    const Button2=useGetSettingByID(sectionId,5);
   return (
-    <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 items-center gap-10 pt-12 min-h-screen bg-white">
+    <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 items-center gap-10 pt-12 min-h-screen bg-white" style={{backgroundColor:BackGround}}>
       {/* Left Content */}
       <div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
