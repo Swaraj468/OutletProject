@@ -6,7 +6,7 @@ const HeroSectionArray = [
   { id: 0, name: 'Title', settingId: 121, value: "Every piece of Jewelry tells a story" },
   { id: 1, name: 'Sub Title', settingId: 121, value: "“A gentleman knows his appearance is very important that shows his characteristic.” - Unknown" },
   { id: 2, name: 'BackGround Color', settingId: 124, value: "" },
-  { id: 3, name: 'Image', settingId: 121, value: "https://res.cloudinary.com/dkt1t22qc/image/upload/v1742496031/Prestataires_Documents/dygqcsf4puzswq30yssx.png" },
+  { id: 3, name: 'Image', settingId: 125, value: "https://res.cloudinary.com/dkt1t22qc/image/upload/v1742496031/Prestataires_Documents/dygqcsf4puzswq30yssx.png" },
   { id: 4, name: 'Button Name-1', settingId: 121, value: "Shop Now" },
   { id: 5, name: 'Button Name-2', settingId: 121, value: "Click" },
   { id: 6, name: 'Anoter Link-1', settingId: 121, value: "" },
