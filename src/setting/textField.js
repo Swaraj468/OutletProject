@@ -21,10 +21,10 @@ const TextField = ({ sectionID, settingId, name, defaultValue }) => {
         method: "POST",
         headers: {
           Authorization:
-            "Bearer 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",
+            "Bearer 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",
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({
+        body: JSON.stringify({ 
           model: "meta-llama/llama-4-maverick:free",
           messages: [
             {

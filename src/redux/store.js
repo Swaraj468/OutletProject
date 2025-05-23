@@ -305,6 +305,7 @@ function moveSection(arr, id1, id2, mousePosition) {
 }
 
 function move_child(arr, id1, id2, mousePosition, parentID) {
+  
   console.log(arr, id1, id2, mousePosition, parentID)
   let index = arr.findIndex(item => item.id === parentID)
   console.log(arr, index, "childers")
